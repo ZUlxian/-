@@ -16,7 +16,6 @@
 ### 网络管理部分 // networkManager.js
 
 ```javascript
-// networkManager.js
 /**
  * @author ZU_xian
  * @copyright Sunsoaked FastFile Transfer Module
@@ -2039,8 +2038,9 @@ async sendPairRequest(device, pairRequest) {
 
 export default NetworkManager;
 ```
+### 页面逻辑部分 // index.js
 
-页面逻辑部分
+```javascript
 // pages/index/index.js
 import NetworkManager from '../../utils/networkManager.js';
 
@@ -4705,8 +4705,10 @@ async cancelOngoingPairing() {
     this.handleUDPPairRequest(fakeRequest, fakeRemoteInfo, this.networkManager.udp);
   }
 });
+```
+### 页面构建部分 // index.wxml
 
-页面构建代码部分
+```javascript
 <!-- index.wxml -->
 <view class="container">
 <!-- 顶部连接状态 -->
@@ -4912,8 +4914,11 @@ async cancelOngoingPairing() {
     <text class="pairing-text">{{pairingStatus}}</text>
   </view>
 </view>
+```
 
-样式表部分
+### 样式表部分 // index.wxss
+
+```javascript
 /* index.wxss */
 .container {
     min-height: 100vh;
@@ -5614,3 +5619,4 @@ async cancelOngoingPairing() {
     font-size: 28rpx;
     color: #999;
   }
+```
