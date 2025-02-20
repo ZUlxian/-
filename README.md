@@ -7,6 +7,15 @@
 
 代码预览：
 网络管理部分
+# FastFile Transfer Module
+
+一个基于微信小程序的UDP局域网文件传输模块，可实现在局域网中进行快速文件传输。
+
+## 代码预览
+
+### 网络管理部分 // networkManager.js
+
+```javascript
 // networkManager.js
 /**
  * @author ZU_xian
@@ -2029,6 +2038,7 @@ async sendPairRequest(device, pairRequest) {
 }
 
 export default NetworkManager;
+```
 
 页面逻辑部分
 // pages/index/index.js
