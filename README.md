@@ -1,5 +1,5 @@
 # By-ZU_xian
-# ![微信小程序界面截图](https://i.ibb.co/kg65GNrd/1.png)👉![微信小程序界面截图](https://i.ibb.co/Fqb8mK7b/2.png)👉![微信小程序界面截图](https://i.ibb.co/ZRGCdFNt/3.png)👉![微信小程序界面截图](https://i.ibb.co/C326GHVT/4.png)👉![微信小程序界面截图](https://i.ibb.co/fVY4m6MG/5.png)👉![微信小程序界面截图](https://i.ibb.co/YF0gkMDd/6.png)
+
 做了一个通过局域网进行传输的微信小程序面对面传输，但是问题在于微信小程序的体量限制，只能使用最原始的UDP进行传输，而我做好了之后发现这个UDP传输放到小程序当中在2025年的今天显得太过于鸡肋，因为传输效率极其低下，发送一个大于10kb的文件可能就无法传输了，只能发送5kb左右的小文件，所以我打算放弃这个项目，因此里面有一些UI问题没有后续的解决。此代码拿出来开源，以供大学生进行学习！从代码中可以学习到一些关于蓝牙和UDP建立连接的东西，因为此代码开源靠一些营销号不要拿去骗实践大学生的钱！
 
 使用说明：
@@ -3490,3 +3490,4 @@ Page({
     color: #999;
 }
 ```
+# ![微信小程序界面截图](https://i.ibb.co/kg65GNrd/1.png)👉![微信小程序界面截图](https://i.ibb.co/Fqb8mK7b/2.png)👉![微信小程序界面截图](https://i.ibb.co/ZRGCdFNt/3.png)👉![微信小程序界面截图](https://i.ibb.co/C326GHVT/4.png)👉![微信小程序界面截图](https://i.ibb.co/fVY4m6MG/5.png)👉![微信小程序界面截图](https://i.ibb.co/YF0gkMDd/6.png)
