@@ -5,8 +5,6 @@
 ![Platform](https://img.shields.io/badge/Platform-Node.js%20%7C%20WeChat-green.svg)
 ![Status](https://img.shields.io/badge/Status-Deprecated-red.svg)
 ![Language](https://img.shields.io/badge/Language-JavaScript-yellow.svg)
-![UDP](https://img.shields.io/badge/Protocol-UDP-blue.svg)
-![Local Network](https://img.shields.io/badge/Network-LAN-orange.svg)
 
 </div>
 
